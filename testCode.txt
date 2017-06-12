@@ -1,0 +1,31 @@
+<div class="input-group">
+    <input
+        type="number"
+        id="swap1"
+        class="input-group-field"
+        name="movieName"
+        placeholder="Swap"
+    >
+    <input
+        type="number"
+        id="swap2"
+        class="input-group-field"
+        name="movieName"
+        placeholder="Swap"
+    >
+    <div class="input-group-button">
+        <button
+            class="primary button"
+            type="click"
+            id="swap"
+            onClick="app.swapItems(this.id)"
+        >
+            Swap
+        </button>
+    </div>
+</div>
+
+<input
+    type="color"
+    name="colorChange"
+>
